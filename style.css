@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+.header{
+    background: #C83C29;
+    width: 1164px;
+    height: 80px;
+    border-bottom: 6px solid black ;
+}
+.header__inner img{
+    width: 200px;
+}
+.header__inner {
+    width: 200px;
+    margin: 0 auto;
+}
+.pokemon__img {
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+    background-size: cover;
+}
+.main_page {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    width: 1160px;
+    margin-left: 40px;
+    margin-top: 50px;
+
+
+}
